@@ -12,8 +12,8 @@ import SimpleITK as sitk
 
 # IMPORTANT: these paths may differ on your system, depending on where
 # Elastix has been installed. Please set accordingly.
-ELASTIX_PATH = os.path.join(r'/usr/bin/elastix')
-TRANSFORMIX_PATH = os.path.join(r'/usr/bin/transformix')
+ELASTIX_PATH = os.path.join(r'C:\Users\tesse\OneDrive\Universiteit\000-Generate\Universiteit\Capita selecta on medical image analysis\elastix-5.0.0-win64\elastix.exe')
+TRANSFORMIX_PATH = os.path.join(r'C:\Users\tesse\OneDrive\Universiteit\000-Generate\Universiteit\Capita selecta on medical image analysis\elastix-5.0.0-win64\transformix.exe')
 
 if not os.path.exists(ELASTIX_PATH):
     raise IOError('Elastix cannot be found, please set the correct ELASTIX_PATH.')

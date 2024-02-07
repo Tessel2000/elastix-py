@@ -18,21 +18,21 @@
 
 // Optimizer
 (Optimizer "FullSearch")
-(FullSearchSpace0 "test" 0 -1.5 1.5 0.01)
+(FullSearchSpace0 "tst" 0 -1.5 1.5 0.01)
 
 
 // Sampling voxels from the images
 
 // Full sampling, all voxels
-(ImageSampler "Full")
+//(ImageSampler "Full")
 
 // Equidistant subsampling
 //(ImageSampler "Grid")
 //(SampleGridSpacing 3 3)
 
 // Random subsampling
-//(ImageSampler "Random")
-//(NumberOfSpatialSamples 2048)
+(ImageSampler "Random")
+(NumberOfSpatialSamples 2048)
 
 
 // Transformation

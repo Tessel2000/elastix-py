@@ -24,7 +24,7 @@
 (Transform "BSplineTransform")
 // The control point spacing of the bspline transformation in
 // the finest resolution level. 
-(FinalGridSpacingInPhysicalUnits 64)
+(FinalGridSpacingInPhysicalUnits 4)
 
 // Metric
 (Metric "AdvancedNormalizedCorrelation")
